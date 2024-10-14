@@ -311,16 +311,16 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', default='DEAP', help='dataset to use, "DEAP" or "DREAMER"')
 
     parser.add_argument('--mode', default='train', help='the model mode')
-    parser.add_argument('--data_dir1', default='../GLCNN_Fusion_DEAP/data_preprocessed_matlab/',
+    parser.add_argument('--data_dir1', default='data_preprocessed_matlab/',
                         help='path of the dataset')
-    parser.add_argument('--data_dir2', default='F:/EEG数据/DREAMER/DREAMER.mat', help='path of the dataset')
+    parser.add_argument('--data_dir2', default='DREAMER/DREAMER.mat', help='path of the dataset')
 
     parser.add_argument('--ratio_leave_out', default=0.8, help='The ratio for leave-out to pretrain')
 
     parser.add_argument('--bayesian_leave_out', default=0.5, help='the ratio for calculating bayesian')
 
-    parser.add_argument('--save_dir', default='result/with_pseudo/with_pretrain/0.8/Classifier/DE/with_weight_pseudo_label_MAML_normal_online/liking/')
-    parser.add_argument('--model_dir', default='model/with_pseudo/with_pretrain/0.8/Classifier/DE/with_weight_pseudo_label_MAML_normal_online/liking/')
+    parser.add_argument('--save_dir', default='result/0.8/Classifier/DE/with_weight_pseudo_label_normal_online/liking/')
+    parser.add_argument('--model_dir', default='model/0.8/Classifier/DE/with_weight_pseudo_label_normal_online/liking/')
     parser.add_argument('--num_cls', default=2, help='the number of categories')
     parser.add_argument('--fold', default=10, help='The number of fold for cross validation')
     parser.add_argument('--update_lr', default=0.001, help='The learning rate to update parameters')

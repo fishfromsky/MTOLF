@@ -1,0 +1,13 @@
+result/
+
+model/
+
+pretrained_model/
+
+data_preprocessed_matlab/
+
+DREAMER/
+
+__pycache__/
+
+.idea/
