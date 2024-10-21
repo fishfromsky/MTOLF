@@ -311,7 +311,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', default='DEAP', help='dataset to use, "DEAP" or "DREAMER"')
 
     parser.add_argument('--mode', default='train', help='the model mode')
-    parser.add_argument('--data_dir1', default='data_preprocessed_matlab/',
+    parser.add_argument('--data_dir1', default='../GLCNN_Fusion_DEAP/data_preprocessed_matlab/',
                         help='path of the dataset')
     parser.add_argument('--data_dir2', default='DREAMER/DREAMER.mat', help='path of the dataset')
 
