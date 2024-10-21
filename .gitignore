@@ -2,8 +2,6 @@ result/
 
 model/
 
-plot.py
-
 pretrained_model/
 
 data_preprocessed_matlab/
